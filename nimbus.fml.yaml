@@ -1,0 +1,31 @@
+---
+# The features to be included in the nimbus.fml will be listed
+# in the `include` block. This should not be a manual process.
+# Please see the documentation in `iOSNimbusFeatureUtility`
+# for more information
+about:
+  description: The root level Feature Manifest for Firefox for iOS
+  ios:
+    class: FxNimbus
+    module: Client
+channels:
+  - developer
+  - beta
+  - release
+include:
+  - nimbus-features/contextualHintFeature.yaml
+  - nimbus-features/creditCardAutofillFeature.yaml
+  - nimbus-features/engagementNotificationFeature.yaml
+  - nimbus-features/generalFeatures.yaml
+  - nimbus-features/homescreenFeature.yaml
+  - nimbus-features/messagingFeature.yaml
+  - nimbus-features/notificationSettingsFeature.yaml
+  - nimbus-features/onboardingFeature.yaml
+  - nimbus-features/searchFeature.yaml
+  - nimbus-features/searchTermGroupsFeature.yaml
+  - nimbus-features/shareSheetFeature.yaml
+  - nimbus-features/spotlightSearchFeature.yaml
+  - nimbus-features/startAtHomeFeature.yaml
+  - nimbus-features/tabTrayFeature.yaml
+  - nimbus-features/wallpaperFeature.yaml
+  - nimbus-features/zoomFeature.yaml
